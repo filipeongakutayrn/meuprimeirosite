@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Contatos</title>
+    <link rel="stylesheet" href="./Css/bootstrap.css">
+</head>
+
+<body style="background: hsl(0, 0%, 94%)">
+    <div class="cabecalho">
+        <div class="btn-group" style="margin-left: 10px ; margin-top: 10px">
+            <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"
+                aria-expanded="false">
+                Contatos
+            </button>
+            <div class="dropdown-menu">
+                <a class="dropdown-item" href="Capa.html">Início</a>
+                <a class="dropdown-item" href="Midias.html">Mídias</a>
+                <a class="dropdown-item" href="links.html">Links</a>
+                <a class="dropdown-item" href="https://pt.wikipedia.org/wiki/Jair_Bolsonaro">Wikipedia</a>
+            </div>
+        </div>
+        <div class="container">
+
+            <div class="row">
+                <div class="col-12 offset-5">
+                    <h1 style="margin-top: 100px" >Contate-nos</h1>
+                </div>
+                <!--Inicio do formulário-->
+                <div class="col-10 offset-3" style="margin-top: 40px">
+                    <form class="needs-validation" novalidate>
+                        <div class="form-row">
+                            <div class="col-md-4 mb-3">
+                                <label for="validationCustom01">Primeiro Nome</label>
+                                <input type="text" class="form-control" id="validationCustom01" placeholder="" value=""
+                                    required>
+                                <div class="valid-feedback">
+
+                                </div>
+                            </div>
+                            <div class="col-md-4 mb-3">
+                                <label for="validationCustom02">Segundo Nome</label>
+                                <input type="text" class="form-control" id="validationCustom02" placeholder="" value=""
+                                    required>
+                                <div class="valid-feedback">
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="col-md-4 mb-3">
+                                <label for="validationCustom03">Cidade</label>
+                                <input type="text" class="form-control" id="validationCustom03" placeholder="" required>
+                                <div class="invalid-feedback">
+
+                                </div>
+                            </div>
+                            <div class="col-md-4 mb-3">
+                                <label for="validationCustom04">Estado</label>
+                                <input type="text" class="form-control" id="validationCustom04" placeholder="" required>
+                                <div class="invalid-feedback">
+
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="form-group">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+                                <label class="form-check-label" for="invalidCheck">
+                                    Confirma o envio da menssagem ?
+                                </label>
+                                <div class="invalid-feedback">
+                                    Você deve confirmar antes de enviar
+                                </div>
+                            </div>
+                        </div>
+                        <button class="btn btn-primary" type="submit">Enviar</button>
+                    </form>
+                    <!--Final do formulário-->
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <script src="./JS/popper.min.js"></script>
+    <script src="./JS/jquery-3.4.1.js"></script>
+    <script src="./JS/bootstrap.js"></script>
+</body>
+</html>
